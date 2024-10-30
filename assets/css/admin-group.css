@@ -1,0 +1,52 @@
+.hwjb .job-block{
+    border: 1px solid grey;
+}
+.hwjb .jobs{
+    padding:10px;
+}
+.hwjb .jobs th{
+    text-align: left;
+}
+.hwjb .jobs td{
+    text-align: left;
+}
+.hwjb .description{
+    margin-top:20px;
+}
+.hwjb .other{
+    margin-top:20px;
+}
+.hwjb .other .update{
+    float:left;
+    margin-right:10px;
+}
+.hwjb .conditions label{
+    font-weight:bold;
+}
+.hwjb .job-group-conf .hw-link input{
+    vertical-align: top;
+    margin-top:6px;
+}
+.hwjb .job-group-conf .desc{
+   display:inline-block; 
+   width:80%;
+   margin-top:0;
+   margin-bottom:0;
+}
+.hwjb .job-group-conf .desc .help-block{
+    display:inline-block;
+    font-size:0.8rem;
+    opacity: 0.7;
+}
+/*.postbox-container {
+
+     float: right; 
+}
+.postbox-container1 {
+     float: left; 
+}
+#post-body.columns-2 #postbox-container-1 {
+    /* float: right; */
+    /* margin-right: -300px; */
+    /* width: 280px; */
+/**}*/

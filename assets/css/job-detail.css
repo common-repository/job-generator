@@ -1,0 +1,62 @@
+#hwjb .wp-caption, #hwjb table tr.alt {
+        background: inherit; 
+   }
+#hwjb table{
+  width:100%;
+  border-collapse: collapse;
+}
+/*#hwjb table{}*/
+#hwjb table, #hwjb th, #hwjb td {
+   /*border: 1px solid grey;*/
+   border-top: 1px solid #f1f1f1;
+   border-bottom: 1px solid #f1f1f1;
+   border-left: 1px solid #f1f1f1;
+   border-right: 1px solid #f1f1f1;
+   
+}
+#hwjb th, #hwjb td {
+  text-align:left !important;
+  padding-left:1em;
+}
+#hwjb table.summary{
+    margin-top:10px;
+   margin-bottom: 0; 
+}
+#hwjb table .show-all,
+#hwjb table .hide-detail
+{
+  font-weight:bold;
+  display:none;
+}
+#hwjb table#detail,
+#hwjb table#detail th,
+#hwjb table#detail td,
+#hwjb table#detail tr
+{
+  border-top:none;
+}
+#hwjb table th{
+    width:30%;
+    text-align:left;
+}
+#hwjb table td{
+    width:70%;
+    text-align: left;
+}
+#hwjb div.job-block table#detail td h4
+{
+    font-size:1em;
+    margin-bottom:0px;
+    display:inline-block;
+}
+@media screen and (max-width: 600px){
+    #hwjb table,#hwjb tbody, #hwjb tr,#hwjb td, #hwjb th{
+        display:block;
+    }
+    #hwjb table th,
+    #hwjb table td
+    {
+        width:100%;
+        text-align: left;
+    }
+}

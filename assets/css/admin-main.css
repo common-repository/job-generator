@@ -1,0 +1,60 @@
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
+.hwjb .jobs{
+    padding:10px;
+}
+.hwjb .help-block{
+    display:inline-block;
+    color:rgba(50, 43, 60, 0.54);
+    font-sie:0.8em;
+}
+.hwjb .job-form{
+    /*margin-left:10px;*/
+}
+.hwjb .job-form label{
+    margin-top:5px;
+    font-weight: bold;
+}
+.hwjb .job-form input[type='text']{
+    width:100%;
+}
+.hwjb #poststuff .postbox-container {
+    width: 40%;
+}
+.hwjb #poststuff #post-body.columns-2 {
+     margin-right: 0px; 
+}
+.hwjb #post-body.columns-2 #postbox-container-1 {
+    float: left;
+    margin-right: 0px;
+    width: 60%;
+}
+.hwjb .job-list > div{
+    margin-left:10px;
+}
+.hwjb .description{
+    margin-top:25px;
+}
+.hwjb #successNotice{
+    display:none;
+}

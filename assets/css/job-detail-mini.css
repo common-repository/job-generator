@@ -1,0 +1,21 @@
+#hwjb table#detail{
+  display:none;
+}
+#hwjb table .show-all td,
+#hwjb table .hide-detail td
+{
+    text-align:center !important;
+    font-weight:bold;
+}
+#hwjb table .show-all,
+#hwjb table .hide-detail
+{
+  display:table-row;
+}
+
+@media screen and (max-width: 600px){
+#hwjb table .show-all
+{
+  display:block;
+}
+    }
